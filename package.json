@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "egg-bin dev"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/rywaroy/cyy-blog-server/issues"
   },
-  "homepage": "https://github.com/rywaroy/cyy-blog-server#readme"
+  "homepage": "https://github.com/rywaroy/cyy-blog-server#readme",
+  "dependencies": {
+    "egg": "^2.22.2"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.13.0"
+  }
 }
